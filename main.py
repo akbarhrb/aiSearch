@@ -17,8 +17,7 @@ app.add_middleware(
 async def getMessage(request:Request):
     data = await request.json()
     message = data.get("message")
-    print("the message is" + str(message))
-    return {"message" : "data recieved"}
+    return {"message" : "data recieved" , "data": message}
 
 @app.get("/")
 async def root():
