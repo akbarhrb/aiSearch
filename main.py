@@ -24,3 +24,7 @@ async def getMessage(request:Request):
 async def root():
     return {"message" : "hello there!"}
 
+@app.get("/hi")
+async def root():
+    return {"message" : "hi ali!"}
+
