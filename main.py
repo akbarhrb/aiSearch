@@ -13,11 +13,11 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 
-# @app.post('/aiSearch')
-# async def getMessage(request:Request):
-#     data = await request.json()
-#     message = data.get("message")
-#     print("the message is" + str(message))
+@app.post('/aiSearch')
+async def getMessage(request:Request):
+    data = await request.json()
+    message = data.get("message")
+    print("the message is" + str(message))
 
 @app.get("/")
 async def root():
