@@ -18,7 +18,7 @@ async def getMessage(request:Request):
     data = await request.json()
     message = data.get("message")
     print("the message is" + str(message))
-    return {"message" : message}
+    return {"message" : "data recieved"}
 
 @app.get("/")
 async def root():
