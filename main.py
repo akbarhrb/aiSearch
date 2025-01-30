@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import Request
+import spacy
 
 
 app = FastAPI()
@@ -13,17 +14,13 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 
+nlp = spacy.load("category-ner")
+
 @app.post('/aiSearch')
 async def getMessage(request:Request):
     data = await request.json()
     message = data.get("message")
-    return {"message" : "data recieved" , "data": message}
-
-@app.get("/")
-async def root():
-    return {"message" : "hello there!"}
-
-@app.get("/hi")
-async def root():
-    return {"message" : "hi ali!"}
+    doc = nlp(message)
+    entities = [ent for ent in doc.ents]
+    return {"entities" : entities}
 
