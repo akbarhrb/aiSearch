@@ -21,6 +21,6 @@ async def getMessage(request:Request):
     data = await request.json()
     message = data.get("message")
     doc = nlp(message)
-    entities = [ent for ent in doc.ents]
+    entities = [{"text": ent.text, "label": ent.label_} for ent in doc.ents]  
     return {"entities" : entities}
 
