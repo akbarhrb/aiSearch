@@ -1,0 +1,41 @@
+{"label":"CATEGORY","pattern":"home"}
+{"label":"CATEGORY","pattern":"shopping"}
+{"label":"CATEGORY","pattern":"shop"}
+{"label":"CATEGORY","pattern":"travel"}
+{"label":"CATEGORY","pattern":"traveling"}
+{"label":"CATEGORY","pattern":"gifts"}
+{"label":"CATEGORY","pattern":"education"}
+{"label":"CATEGORY","pattern":"clothes"}
+{"label":"CATEGORY","pattern":"healthcare"}
+{"label":"CATEGORY","pattern":"groceries"}
+{"label":"CATEGORY","pattern":"grocery"}
+{"label":"CATEGORY","pattern":"transportation"}
+{"label":"CATEGORY","pattern":"dining"}
+{"label":"CATEGORY","pattern":"furniture"}
+{"label":"CATEGORY","pattern":"fitness"}
+{"label":"CATEGORY","pattern":"entertainment"}
+{"label":"CATEGORY","pattern":"vacations"}
+{"label":"CATEGORY","pattern":"vacation"}
+{"label":"CATEGORY","pattern":"subscriptions"}
+{"label":"CATEGORY","pattern":"subscription"}
+{"label":"CATEGORY","pattern":"equipment"}
+{"label":"CATEGORY","pattern":"equipments"}
+{"label":"GREATER","pattern":"greater than"}
+{"label":"GREATER","pattern":"more than"}
+{"label":"GREATER","pattern":"above"}
+{"label":"GREATER","pattern":"over"}
+{"label":"GREATER","pattern":"exceeding"}
+{"label":"GREATER","pattern":"higher than"}
+{"label":"GREATER","pattern":"larger than"}
+{"label":"GREATER","pattern":"bigger than"}
+{"label":"GREATER","pattern":"beyond"}
+{"label":"GREATER","pattern":"at least"}
+{"label":"LESS","pattern":"less than"}
+{"label":"LESS","pattern":"below"}
+{"label":"LESS","pattern":"under"}
+{"label":"LESS","pattern":"lower than"}
+{"label":"LESS","pattern":"fewer than"}
+{"label":"LESS","pattern":"smaller than"}
+{"label":"LESS","pattern":"not more than"}
+{"label":"LESS","pattern":"at most"}
+{"label":"LESS","pattern":"no more than"}
